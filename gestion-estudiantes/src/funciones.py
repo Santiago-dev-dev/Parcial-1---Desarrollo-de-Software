@@ -1,4 +1,6 @@
+# src/funciones.py
+
 def hallar_maxima_nota(notas):
     if not notas:  
-        return 0
-    return max(notas)  
+        return None  
+    return max(notas) 
