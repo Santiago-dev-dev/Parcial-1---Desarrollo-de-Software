@@ -1,4 +1,4 @@
-def maxima_nota(notas):
+def hallar_maxima_nota(notas):
     if not notas:  
         return 0
     return max(notas)  
