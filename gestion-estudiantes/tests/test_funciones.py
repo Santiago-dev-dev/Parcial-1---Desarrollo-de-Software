@@ -1,6 +1,6 @@
 # tests/test_funciones.py
 import unittest
-from src.funciones import hallar_maxima_nota  # Asegúrate de importar correctamente
+from src.funciones import hallar_maxima_nota  
 
 class TestFunciones(unittest.TestCase):
 
