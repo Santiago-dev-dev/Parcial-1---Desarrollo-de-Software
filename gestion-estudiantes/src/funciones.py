@@ -2,7 +2,7 @@
 
 def hallar_maxima_nota(notas):
     if not notas:
-        return None  # Si la lista está vacía, retornamos None
+        return None  
     
    
     notas_validas = [nota for nota in notas if isinstance(nota, (int, float)) and 0 <= nota <= 5]
