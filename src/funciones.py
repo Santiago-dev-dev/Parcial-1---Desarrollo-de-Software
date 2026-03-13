@@ -1,8 +1,2 @@
 def cantidad_perdidas(notas):
-    contador = 0
-
-    for nota in notas:
-        if nota < 3:
-            contador += 1
-
-    return contador
+    return sum(1 for nota in notas if nota < 3)
